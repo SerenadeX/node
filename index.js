@@ -1,5 +1,13 @@
-var hello = "Hello";
+var printName = function(name) {
+  console.log(name);
+};
 
-for (var i in [0, 1, 2, 3]) {
-  console.log(i);
-}
+var fish = "steak"
+var rhettsName = "Rhett"
+printName(fish);
+printName(rhettsName);
+var now = "make me now"
+printName (now);
+
+
+printName(5+5)
